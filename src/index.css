@@ -258,7 +258,8 @@ body{
     .contact-info{
         font-size: 14px;
     }
+    /*footer*/
     .footer-wrapper{
-        padding: 40px 30px;
+        padding: 40px 25px;
     }
 }
