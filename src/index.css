@@ -53,6 +53,9 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.contact-me:hover{
+    color: rgb(250, 17, 250);
+}
 .view-resume a
 {
     text-decoration: none;
@@ -197,6 +200,7 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    /*home*/
     .myName{
         font-size: 30px;
         letter-spacing: 2px;
