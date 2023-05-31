@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <h2 className='myName'>BAMIGBOLA RITA ADEDOLAPO</h2>
       <p><span className='skill'>FRONT-END </span> AND <span className='skill'>WORDPRESS DEVELOPER</span></p>
       <p>I CAN DEVELOP <br/>INTERACTIVE, FUNCTIONAL AND RESPONSIVE WEB APPLICATIONS  <br/>INDEPENDENTLY.</p>
-      <button className='contact-me mt-3'><a href='/contact'>contact me</a></button>
+      <Link to='/contact' className='contact-me mt-3'>contact me</Link>
       <blockquote class="blockquote mt-5">
         <p>If you want to be successful, you have to jump, there’s no way around it. When you jump, I can 
           assure you that your parachute will not open right away. But if you do not jump, your 

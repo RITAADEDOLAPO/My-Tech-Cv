@@ -49,7 +49,10 @@ body{
     background-color: black;
 }
 
-.contact-me a,
+.contact-me{
+    text-decoration: none;
+    color: #fff;
+}
 .view-resume a
 {
     text-decoration: none;
@@ -208,9 +211,11 @@ body{
     /*about*/
     .about-wrapper{
         margin-top: 50px;
+        padding: 10px;
     }
     .about-info{
-        margin: 0 10px;
+        padding: 0;
+        margin: 0;
     }
     .progress{
         height: 23px;
@@ -223,11 +228,19 @@ body{
     .barreact {
         font-size: 15px;
     }
+    .project-wrapper h4{
+    margin-top: -20px;
+}
 
     /*project*/
+    .project-wrapper{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .card-wrapper{
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
+    margin-top: 20px;
     }
     .visit-site{
         border: 0.5px solid rgb(250, 17, 250);
@@ -246,6 +259,6 @@ body{
         font-size: 14px;
     }
     .footer-wrapper{
-        padding: 10px;
+        padding: 40px 30px;
     }
 }

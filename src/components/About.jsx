@@ -5,7 +5,8 @@ const About = () => {
     <div className='about-wrapper text-center'>
       <h4>ABOUT ME</h4>
       <div  className='about-info'>
-        <p>I am a self-taught front-end developer. I have passion for designing websites that are
+        <p>I started my training as a self-taught front-end developer, I later enrolled with a couple 
+          of organizations to further my training. I have passion for designing websites that are
           both visually appealing and easy to navigate. I am excited to explore new ideas and
           opportunities that will allow me to expand my skills while contributing to the growth of
           the industry. I am a dedicated young developer always ready to learn and grow. I love to be 
