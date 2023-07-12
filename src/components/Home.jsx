@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import About from './About'
+import Project from './Project'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
           parachute will never open. If you’re safe, you’ll never soar!”</p>
           <footer class="blockquote-footer nav justify-content-end">Steve Harvey</footer>
       </blockquote>
+      <About />
+      <Project />
+      <Contact />
     </div>
     </>
   )
